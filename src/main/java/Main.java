@@ -23,6 +23,14 @@ public class Main {
         System.out.println(growth);
         double monthlyPayment = loanAmount * (monthlyInterestRate * growth) / (growth - 1);
         System.out.printf("Your monthly payment is $%.2f%n", monthlyPayment);
+        double totalInterest = ((monthlyPayment * numberOfMonthlyPayments) - loanAmount);
+        System.out.print("Total interest accured is $" + totalInterest);
     }
 
+
+
+
 }
+        //Calculator stuff for exercise 2
+
+
