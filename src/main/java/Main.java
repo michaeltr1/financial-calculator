@@ -26,11 +26,8 @@ public class Main {
         double totalInterest = ((monthlyPayment * numberOfMonthlyPayments) - loanAmount);
         System.out.print("Total interest accured is $" + totalInterest);
     }
-
-
-
-
 }
-        //Calculator stuff for exercise 2
+
+    //Calculator stuff for exercise 2
 
 
