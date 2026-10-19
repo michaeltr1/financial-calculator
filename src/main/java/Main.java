@@ -25,6 +25,7 @@ public class Main {
         System.out.printf("Your monthly payment is $%.2f%n", monthlyPayment);
         double totalInterest = ((monthlyPayment * numberOfMonthlyPayments) - loanAmount);
         System.out.print("Total interest accured is $" + totalInterest);
+
     }
 }
 
